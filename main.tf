@@ -12,7 +12,7 @@ provider "azurerm" {
   subscription_id = "3a734e32-021d-4243-89ff-c3495e6aa4da"
 }
 
-resource "azurerm_resource_group" "example"{
-  name     = "example-resources"
+resource "azurerm_resource_group" "book"{
+  name     = "example-book"
   location = "West Europe"
 }
